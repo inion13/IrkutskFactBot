@@ -16,8 +16,8 @@ load_dotenv()
 router = Router()
 
 # Инициализация бота и диспетчера
-bot_token = os.getenv('TOKEN')
-bot = Bot(token=bot_token)
+# bot_token = os.getenv('TOKEN')
+bot = Bot(token='6779571947:AAETLvAdgJnVBY2JfpksuNXsPGzYupDLWLs')
 dp = Dispatcher()
 
 start_button = InlineKeyboardButton(text="Начать", callback_data="start")
