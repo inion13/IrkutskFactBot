@@ -29,7 +29,7 @@ stop_fact_keyboard = InlineKeyboardMarkup(inline_keyboard=[[stop_button, fact_bu
 
 @router.message(Command(commands=['start']))
 async def start(message: Message):
-    await message.answer("Привет! Я могу рассказать тебе интересные факты о городе Иркутске. Хочешь послушать?",
+    await message.answer("Привет! Я могу рассказать тебе интересные факты о городе Иркутске. Хочешь почитать?",
                          reply_markup=stop_fact_keyboard)
 
 
