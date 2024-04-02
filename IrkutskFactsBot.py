@@ -35,7 +35,7 @@ async def start(message: Message):
 
 @router.message(Command(commands=['stop']))
 async def stop(message: Message):
-    await message.answer("Хорошо, если захочешь послушать еще, просто напиши мне!",
+    await message.answer("Хорошо, если захочешь почитать еще интересные факты, просто напиши мне!",
                          reply_markup=start_keyboard)
 
 
